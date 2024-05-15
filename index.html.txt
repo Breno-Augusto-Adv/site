@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breno Augusto - Advogado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 0 2rem;
+        }
+        section {
+            padding: 2rem 0;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .service-item {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-bottom: 0.5rem;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.7rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Breno Augusto - Advogado</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Sou Breno Augusto, advogado especializado em direito civil e trabalhista. Com anos de experiência, estou comprometido em fornecer assistência jurídica de alta qualidade aos meus clientes.</p>
+            <p>Meus valores são:</p>
+            <ul>
+                <li><strong>Integridade:</strong> Compromisso com a ética profissional.</li>
+                <li><strong>Excelência:</strong> Busca constante pela melhoria dos serviços.</li>
+                <li><strong>Empatia:</strong> Entender as necessidades dos clientes.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-item">
+                <h3>Consultoria Jurídica</h3>
+                <p>Fornecemos consultoria jurídica personalizada em diversas áreas do direito, ajudando você a tomar decisões informadas.</p>
+            </div>
+            <div class="service-item">
+                <h3>Representação Legal</h3>
+                <p>Representamos nossos clientes com dedicação e competência em processos judiciais e administrativos.</p>
+            </div>
+            <div class="service-item">
+                <h3>Mediação e Arbitragem</h3>
+                <p>Oferecemos serviços de mediação e arbitragem para resolver conflitos de forma rápida e eficiente.</p>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>Em breve, você poderá conferir artigos e novidades sobre o mundo jurídico.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Breno Augusto - Advogado. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
